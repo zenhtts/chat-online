@@ -4,13 +4,14 @@ import { getDatabase, ref, push, onChildAdded } from "https://www.gstatic.com/fi
 
 // 🔧 SUBSTITUA pelos seus dados do Firebase:
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_AUTH_DOMAIN",
-  databaseURL: "SUA_DATABASE_URL",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_BUCKET",
-  messagingSenderId: "SEU_SENDER_ID",
-  appId: "SEU_APP_ID"
+  apiKey: "AIzaSyCYRtY4OLcPyy7qMROb1pQDRNjUKOd72u0",
+  authDomain: "conversas-d112d.firebaseapp.com",
+  databaseURL: "https://conversas-d112d-default-rtdb.firebaseio.com",
+  projectId: "conversas-d112d",
+  storageBucket: "conversas-d112d.firebasestorage.app",
+  messagingSenderId: "775752240791",
+  appId: "1:775752240791:web:5844ce1a973952c876a3d2",
+  measurementId: "G-9PF4N1Y2QS"
 };
 
 const app = initializeApp(firebaseConfig);
